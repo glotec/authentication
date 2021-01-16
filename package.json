@@ -1,0 +1,32 @@
+{
+  "name": "qrcodegenerate",
+  "version": "1.0.0",
+  "description": "Genearate qrcode for data that is in database, using nodejs and mongodb",
+  "main": "source/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon source/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glotec/qrCodeGenerate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glotec/qrCodeGenerate/issues"
+  },
+  "homepage": "https://github.com/glotec/qrCodeGenerate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12",
+    "qrcode": "^1.4.4"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
